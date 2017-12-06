@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.aluno.prova1.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aluno"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disciplinas" />
+
+    <CheckBox
+        android:id="@+id/chbsoftware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teste de Software" />
+
+    <CheckBox
+        android:id="@+id/chbcomercial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvimento Comercial" />
+
+    <CheckBox
+        android:id="@+id/chbdesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design" />
+
+    <CheckBox
+        android:id="@+id/chbmobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvimento Mobile" />
+
+    <CheckBox
+        android:id="@+id/chbinfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segurança da Informação" />
+
+    <CheckBox
+        android:id="@+id/chbempreendedorismo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empreendedorismo" />
+
+    <CheckBox
+        android:id="@+id/chbdireitoetica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direito e Ética Aplicado a Informática" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="matricular" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adriana dos Santos Pereira" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Helen Farias Lopes" />
+
+</LinearLayout>
